@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import fotoPedroFelipe from "/src/assets/foto-felipe.jpg";
+import fotoFrancis from "/src/assets/foto-francis.jpg";
 import ListSkills from '../Skills';
 import breakpoints from "../../Styles/Breakpoint/breakpoint.jsx";
 
@@ -131,13 +131,14 @@ const Titulo = () => {
     <Main>
       <SideSection>
         <NameSubtitle>Olá, meu nome é</NameSubtitle>
-        <Title>Pedro Felipe</Title>
-        <JobSubtitle>Sou desenvolvedor full-stack</JobSubtitle>
+        <Title>Francis Gobbi</Title>
+        <JobSubtitle>Sou Analista de Teste - QA</JobSubtitle>
         <SectionTitle>Sobre mim</SectionTitle>
-        <Description>Olá, meu nome é Pedro Felipe, tenho 18 anos, sou cadeirante e tenho paralisia cerebral. Moro em Porto Alegre/RS e estou no 1º semestre de Ciências da Computação na Unisinos, em Porto Alegre. Entrei na DB em fevereiro de 2024 como estagiário. Após três semanas estando com o pessoal do Starters Ar, fui para nova equipe, a formação da academia onde eu estou até hoje.</Description>
+        <Description>Olá, meu nome é Francis Gobbi, tenho 40 anos. Moro em Porto Alegre/RS sou formado em Engenharia de Computação - PUCRS e estou cursando Pós-Graduação em Automação de Testes de Software, em Porto Alegre. Entrei na DB em novembro de 2021 como analista de testes.
+        Trabalho com Testes Automatizados aproximadamente 3 anos.</Description>
       </SideSection>
       <MainSection>
-        <Image src={fotoPedroFelipe} />
+        <Image src={fotoFrancis} />
         <ListSkills />
       </MainSection>
     </Main>

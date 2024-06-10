@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import logo from '/src/assets/logo-db.svg';
 import GithubIcon from '/src/assets/Icones/icone-github.svg';
 import LinkedinIcon from '/src/assets/Icones/icone-linkedin.svg';
-import curriculoPDF from '/src/assets/Pedro Felipe - Desenvolvedor.pdf'
+import curriculoPDF from '/src/assets/Curriculo_Francis_Gobbi.pdf'
 import breakpoints from '../../Styles/Breakpoint/breakpoint';
 
 const Container = styled.div`
@@ -110,10 +110,10 @@ const Cabecalho = () => {
             <NavButton to="/projetos">Projetos</NavButton>
           </NavGroup>
           <IconGroup>
-            <IconButton href="https://github.com/pedrorosinha" target="_blank" rel="noopener noreferrer">
+            <IconButton href="https://github.com/francisgobbi" target="_blank" rel="noopener noreferrer">
               <img src={GithubIcon} alt="Github" />
             </IconButton>
-            <IconButton href="https://www.linkedin.com/in/pedro-felipe-paulino-rosinha-792388228/" target="_blank" rel="noopener noreferrer">
+            <IconButton href="https://www.linkedin.com/in/francis-gobbi-a5019b54" target="_blank" rel="noopener noreferrer">
               <img src={LinkedinIcon} alt="Linkedin"/>
             </IconButton>
           </IconGroup>

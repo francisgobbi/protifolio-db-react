@@ -88,11 +88,11 @@ const Circle = styled.div`
 const skills = [
   { name: 'HTML', level: 5 },
   { name: 'CSS', level: 5 },
-  { name: 'JAVA SCRIPT', level: 3 },
-  { name: 'REACT', level: 4 },
+  { name: 'JAVA SCRIPT', level: 4 },
   { name: 'JAVA', level: 4 },
-  { name: 'SPRING BOOT', level: 4 },
-  { name: 'SQL', level: 5 },
+  { name: '', level: 4 },
+  { name: '', level: 4 },
+  { name: 'SQL', level: 4 },
 ];
 
 const ListSkills = () => {
