@@ -105,22 +105,22 @@ const Projetos = () => {
             <Cards>
                 <Card>
                     <CardImage style={{ backgroundImage: `url(${calculadoraImg})` }} />
-                    <CardTitle>Calculadora</CardTitle>
-                    <CardSubtitle>REACT, CSS, JAVASCRIPT</CardSubtitle>
-                    <CardContent>Um projeto de React com JavaScript realizado durante a minha apresentação sobre o React.</CardContent>
+                    <CardTitle>Automação Mobile</CardTitle>
+                    <CardSubtitle>JAVASCRIPT, WEBDRIVEIO, WDIO </CardSubtitle>
+                    <CardContent>Um projeto com JavaScript realizado durante estudo de Pos-Graduação.</CardContent>
                     <ButtonContainer>
-                        <a href="https://calculadora-react-nine-dusky.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/francisgobbi/automacao-mobile.git" target="_blank" rel="noopener noreferrer">
                             <Button>Acessar</Button>
                         </a>
                     </ButtonContainer>
                 </Card>
                 <Card>
                     <CardImage style={{ backgroundImage: `url(${weatherAppImg})` }} />
-                    <CardTitle>Front-end Weather App</CardTitle>
-                    <CardSubtitle>REACT, CSS, JAVASCRIPT</CardSubtitle>
-                    <CardContent>Projeto de Front-end do desafio final da Formação Academia que o objetivo foi criar a tela para o cadastro da Previsão do Tempo.</CardContent>
+                    <CardTitle>Automação API</CardTitle>
+                    <CardSubtitle>JAVASCRIPT, JESTJS</CardSubtitle>
+                    <CardContent>Projeto com backend e Front-end do curso de Pos-Graduação, o objetivo foi criar testes exploratorios para garantir a funcionalidades CRUD da API.</CardContent>
                     <ButtonContainer>
-                        <a href="https://front-end-weather-app.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        <a href="" target="_blank" rel="noopener noreferrer">
                             <Button>Acessar</Button>
                         </a>
                     </ButtonContainer>

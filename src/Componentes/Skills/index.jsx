@@ -89,9 +89,11 @@ const skills = [
   { name: 'HTML', level: 5 },
   { name: 'CSS', level: 5 },
   { name: 'JAVA SCRIPT', level: 4 },
-  { name: 'JAVA', level: 4 },
-  { name: '', level: 4 },
-  { name: '', level: 4 },
+  { name: 'JAVA', level: 5 },
+  { name: 'PYTHON', level: 3 },
+  { name: 'C#', level: 4 },
+  { name: 'C', level: 4 },
+  { name: 'C++', level: 4 },
   { name: 'SQL', level: 4 },
 ];
 
