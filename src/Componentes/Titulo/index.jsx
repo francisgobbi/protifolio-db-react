@@ -114,8 +114,8 @@ const Description = styled.p`
 `;
 
 const Image = styled.img`
-  width: 500px;
-  height: 500px;
+  width: 590px;
+  height: 819px;
   margin-left: 116px;
   margin-right: 116px;
   padding-top: 15px;
