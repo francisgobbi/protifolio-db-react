@@ -4,6 +4,8 @@ import styled from 'styled-components';
 import automacaoMobileImg from '../Projetos/Imagens/automation-mobile.png';
 import automacaoApiImg from '../Projetos/Imagens/automation-api.png';
 
+import breakpoints from '../../Styles/Breakpoint/breakpoint';
+
 const ProjetosContainer = styled.div`
   max-width: 1440px;
   margin: 0 auto;
