@@ -109,7 +109,7 @@ const Projetos = () => {
                     <CardSubtitle>JAVASCRIPT, WEBDRIVEIO, WDIO </CardSubtitle>
                     <CardContent>Um projeto com JavaScript realizado durante estudo de Pos-Graduação.</CardContent>
                     <ButtonContainer>
-                        <a href="https://github.com/francisgobbi/automacao-mobile.git" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/francisgobbi/automacao-mobile" target="_blank" rel="noopener noreferrer">
                             <Button>Acessar</Button>
                         </a>
                     </ButtonContainer>
@@ -120,7 +120,7 @@ const Projetos = () => {
                     <CardSubtitle>JAVASCRIPT, JESTJS</CardSubtitle>
                     <CardContent>Projeto com backend e Front-end do curso de Pos-Graduação, o objetivo foi criar testes exploratorios para garantir a funcionalidades CRUD da API.</CardContent>
                     <ButtonContainer>
-                        <a href="https://github.com/francisgobbi/projeto-automacao-de-testes-api.git" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/francisgobbi/projeto-automacao-de-testes-api" target="_blank" rel="noopener noreferrer">
                             <Button>Acessar</Button>
                         </a>
                     </ButtonContainer>
