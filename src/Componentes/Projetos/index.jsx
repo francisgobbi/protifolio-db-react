@@ -120,7 +120,7 @@ const Projetos = () => {
                     <CardSubtitle>JAVASCRIPT, JESTJS</CardSubtitle>
                     <CardContent>Projeto com backend e Front-end do curso de Pos-Graduação, o objetivo foi criar testes exploratorios para garantir a funcionalidades CRUD da API.</CardContent>
                     <ButtonContainer>
-                        <a href="" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/francisgobbi/projeto-automacao-de-testes-api.git" target="_blank" rel="noopener noreferrer">
                             <Button>Acessar</Button>
                         </a>
                     </ButtonContainer>
