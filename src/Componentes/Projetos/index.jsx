@@ -3,11 +3,6 @@ import styled from 'styled-components';
 
 import automacaoMobileImg from '../Projetos/Imagens/automation-mobile.png';
 import automacaoApiImg from '../Projetos/Imagens/automation-api.png';
-import backEndWeatherAppImg from '../Projetos/Imagens/imagem-back-end-weather-app.png';
-import crudPessoaEnderecoImg from '../Projetos/Imagens/imagem-crud-pessoa-endereco.png';
-import apresentacaoSpringBootImg from '../Projetos/Imagens/imagem-capa-apresentacao-spring-boot.png';
-import apresentacaoReactImg from '../Projetos/Imagens/imagem-capa-apresentacao-react.png';
-import breakpoints from '../../Styles/Breakpoint/breakpoint';
 
 const ProjetosContainer = styled.div`
   max-width: 1440px;
@@ -126,50 +121,7 @@ const Projetos = () => {
                         </a>
                     </ButtonContainer>
                 </Card>
-                <Card>
-                    <CardImage style={{ backgroundImage: `url(${backEndWeatherAppImg})` }} />
-                    <CardTitle>Back-end Weather-App</CardTitle>
-                    <CardSubtitle>JAVA, SPRING BOOT, MYSQL</CardSubtitle>
-                    <CardContent>Projeto de Back-end do desafio final da Formação Academia que o objetivo foi criar um Crud, acrônimo de Create, Read, Update e Delete sobre a previsão do tempo</CardContent>
-                    <ButtonContainer>
-                        <a href="https://github.com/pedrorosinha/back-end-weather-app" target="_blank" rel="noopener noreferrer">
-                            <Button>Acessar</Button>
-                        </a>
-                    </ButtonContainer>
-                </Card>
-                <Card>
-                    <CardImage style={{ backgroundImage: `url(${crudPessoaEnderecoImg})` }} />
-                    <CardTitle>CRUD Pessoa e Endereço</CardTitle>
-                    <CardSubtitle>JAVA, SPRING BOOT, MYSQL</CardSubtitle>
-                    <CardContent>Primeiro projeto de Back-end na DB que o objetivo foi criar um Crud, acrônimo de Create, Read, Update e Delete relacionando a pessoa com o endereço.</CardContent>
-                    <ButtonContainer>
-                        <a href="https://github.com/pedrorosinha/crud-java-spring-boot-pessoa-endereco" target="_blank" rel="noopener noreferrer">
-                            <Button>Acessar</Button>
-                        </a>
-                    </ButtonContainer>
-                </Card>
-                <Card>
-                    <CardImage style={{ backgroundImage: `url(${apresentacaoSpringBootImg})` }} />
-                    <CardTitle>Apresentação sobre o Spring Boot</CardTitle>
-                    <CardSubtitle>JAVA, SPRING BOOT, MYSQL</CardSubtitle>
-                    <CardContent>Apresentação sobre o Spring Boot mostrando o que é, como instalar/configurar e mostrando um exemplo de um projeto</CardContent>
-                    <ButtonContainer>
-                        <a href="https://drive.google.com/file/d/1QaCHQSTOOrbeUoHFznKKRRM56zGB1xf9/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                            <Button>Acessar</Button>
-                        </a>
-                    </ButtonContainer>
-                </Card>
-                <Card>
-                    <CardImage style={{ backgroundImage: `url(${apresentacaoReactImg})` }} />
-                    <CardTitle>Apresentação sobre o React</CardTitle>
-                    <CardSubtitle>REACT, CSS, JAVASCRIPT</CardSubtitle>
-                    <CardContent>Apresentação sobre o React mostrando o que é, como instalar/configurar e fazendo um exemplo de um projeto de uma calculadora</CardContent>
-                    <ButtonContainer>
-                        <a href="https://drive.google.com/file/d/1MWIX_3nVOFQjZnDqX1cJl40g39PM0LmV/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                            <Button>Acessar</Button>
-                        </a>
-                    </ButtonContainer>
-                </Card>
+              
             </Cards>
         </ProjetosContainer>
     );
