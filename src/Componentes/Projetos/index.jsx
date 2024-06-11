@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import automacaoMobileImg from '../Projetos/Imagens/automation-mobile.jpeg';
-import automacaoApiImg from '../Projetos/Imagens/automation-api.jpeg';
+import automacaoMobileImg from '../Projetos/Imagens/automation-mobile.png';
+import automacaoApiImg from '../Projetos/Imagens/automation-api.png';
 import backEndWeatherAppImg from '../Projetos/Imagens/imagem-back-end-weather-app.png';
 import crudPessoaEnderecoImg from '../Projetos/Imagens/imagem-crud-pessoa-endereco.png';
 import apresentacaoSpringBootImg from '../Projetos/Imagens/imagem-capa-apresentacao-spring-boot.png';
