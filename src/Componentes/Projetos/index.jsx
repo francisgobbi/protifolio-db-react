@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import calculadoraImg from '../Projetos/Imagens/imagem-calculadora.png';
-import weatherAppImg from '../Projetos/Imagens/imagem-weather-app.png';
+import calculadoraImg from '../Projetos/Imagens/automation-mobile.jpeg';
+import weatherAppImg from '../Projetos/Imagens/automation-mobile.jpeg';
 import backEndWeatherAppImg from '../Projetos/Imagens/imagem-back-end-weather-app.png';
 import crudPessoaEnderecoImg from '../Projetos/Imagens/imagem-crud-pessoa-endereco.png';
 import apresentacaoSpringBootImg from '../Projetos/Imagens/imagem-capa-apresentacao-spring-boot.png';
