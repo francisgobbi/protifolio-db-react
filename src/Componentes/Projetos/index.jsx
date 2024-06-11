@@ -98,9 +98,9 @@ const Button = styled.button`
 const Projetos = () => {
     return (
         <ProjetosContainer>           
-            <Cards>
             <h1 >Meus Projetos</h1>            
             <h2>Projetos</h2>
+            <Cards>
                 <Card>
                     <CardImage style={{ backgroundImage: `url(${automacaoMobileImg})` }} />
                     <CardTitle>Automação Mobile</CardTitle>
