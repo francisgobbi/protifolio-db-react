@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import automacaoMobileImg from '../Projetos/Imagens/automation-mobile.png';
 import automacaoApiImg from '../Projetos/Imagens/automation-api.png';
-import backEndWeatherAppImg from '../Projetos/Imagens/imagem-back-end-weather-app.png';
+import automacaoDesktopImg from '../Projetos/Imagens/automacao-desktop.png';
 import crudPessoaEnderecoImg from '../Projetos/Imagens/imagem-crud-pessoa-endereco.png';
 import apresentacaoSpringBootImg from '../Projetos/Imagens/imagem-capa-apresentacao-spring-boot.png';
 import apresentacaoReactImg from '../Projetos/Imagens/imagem-capa-apresentacao-react.png';
@@ -127,12 +127,12 @@ const Projetos = () => {
                     </ButtonContainer>
                 </Card>
                 <Card>
-                    <CardImage style={{ backgroundImage: `url(${backEndWeatherAppImg})` }} />
-                    <CardTitle>Back-end Weather-App</CardTitle>
-                    <CardSubtitle>JAVA, SPRING BOOT, MYSQL</CardSubtitle>
-                    <CardContent>Projeto de Back-end do desafio final da Formação Academia que o objetivo foi criar um Crud, acrônimo de Create, Read, Update e Delete sobre a previsão do tempo</CardContent>
+                    <CardImage style={{ backgroundImage: `url(${automacaoDesktopImg})` }} />
+                    <CardTitle>Automação Desktop com Robot Framework e Sikuli</CardTitle>
+                    <CardSubtitle>ROBOT FRAMEWORK, SIKULI, PYTHON</CardSubtitle>
+                    <CardContent>Proejto sobre Automação Desktop com Robot e Sikuli</CardContent>
                     <ButtonContainer>
-                        <a href="https://github.com/pedrorosinha/back-end-weather-app" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/francisgobbi/automacao-desktop-robot-sikuli-bugbaker" target="_blank" rel="noopener noreferrer">
                             <Button>Acessar</Button>
                         </a>
                     </ButtonContainer>
