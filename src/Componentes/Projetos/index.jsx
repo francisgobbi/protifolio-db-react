@@ -130,7 +130,7 @@ const Projetos = () => {
                     <CardSubtitle>ROBOT FRAMEWORK, SIKULI, PYTHON</CardSubtitle>
                     <CardContent>Proejto sobre Automação Desktop com Robot e Sikuli</CardContent>
                     <ButtonContainer>
-                        <a href="https://github.com/francisgobbi/automacao-desktop-robot-sikuli-bugbaker" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/francisgobbi/automacao-desktop-robot-sikuli-bugbakery" target="_blank" rel="noopener noreferrer">
                             <Button>Acessar</Button>
                         </a>
                     </ButtonContainer>
