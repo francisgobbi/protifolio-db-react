@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import calculadoraImg from '../Projetos/Imagens/automation-mobile.jpeg';
-import weatherAppImg from '../Projetos/Imagens/automation-mobile.jpeg';
+import automacaoMobileImg from '../Projetos/Imagens/automation-mobile.jpeg';
+import automacaoApiImg from '../Projetos/Imagens/automation-api.jpeg';
 import backEndWeatherAppImg from '../Projetos/Imagens/imagem-back-end-weather-app.png';
 import crudPessoaEnderecoImg from '../Projetos/Imagens/imagem-crud-pessoa-endereco.png';
 import apresentacaoSpringBootImg from '../Projetos/Imagens/imagem-capa-apresentacao-spring-boot.png';
@@ -104,7 +104,7 @@ const Projetos = () => {
             <h2>Projetos</h2>
             <Cards>
                 <Card>
-                    <CardImage style={{ backgroundImage: `url(${calculadoraImg})` }} />
+                    <CardImage style={{ backgroundImage: `url(${automacaoMobileImg})` }} />
                     <CardTitle>Automação Mobile</CardTitle>
                     <CardSubtitle>JAVASCRIPT, WEBDRIVEIO, WDIO </CardSubtitle>
                     <CardContent>Um projeto com JavaScript realizado durante estudo de Pos-Graduação.</CardContent>
@@ -115,7 +115,7 @@ const Projetos = () => {
                     </ButtonContainer>
                 </Card>
                 <Card>
-                    <CardImage style={{ backgroundImage: `url(${weatherAppImg})` }} />
+                    <CardImage style={{ backgroundImage: `url(${automacaoApiImg})` }} />
                     <CardTitle>Automação API</CardTitle>
                     <CardSubtitle>JAVASCRIPT, JESTJS</CardSubtitle>
                     <CardContent>Projeto com backend e Front-end do curso de Pos-Graduação, o objetivo foi criar testes exploratorios para garantir a funcionalidades CRUD da API.</CardContent>
