@@ -1,8 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import automacaoWebImg from '../Projetos/Imagens/automacao-web.png';
+import automacaoWebImg2 from '../Projetos/Imagens/automacao-web-2.png';
 import automacaoMobileImg from '../Projetos/Imagens/automation-mobile.png';
 import automacaoApiImg from '../Projetos/Imagens/automation-api.png';
+import automacaoApiImg2 from '../Projetos/Imagens/automation-api-2.png';
 import automacaoDesktopImg from '../Projetos/Imagens/automacao-desktop.png';
 
 import breakpoints from '../../Styles/Breakpoint/breakpoint';
@@ -113,7 +115,7 @@ const Projetos = () => {
                     </ButtonContainer>
                 </Card>
                 <Card>
-                    <CardImage style={{ backgroundImage: `url(${automacaoWebImg})` }} />
+                    <CardImage style={{ backgroundImage: `url(${automacaoWebImg2})` }} />
                     <CardTitle>Automação Web</CardTitle>
                     <CardSubtitle>JAVA, MAVEN e WEBDRIVER </CardSubtitle>
                     <CardContent>Um projeto com Java realizado para resolver problema no banco BugBank.</CardContent>
@@ -146,7 +148,7 @@ const Projetos = () => {
                     </ButtonContainer>
                 </Card>
                 <Card>
-                    <CardImage style={{ backgroundImage: `url(${automacaoApiImg})` }} />
+                    <CardImage style={{ backgroundImage: `url(${automacaoApiImg2})` }} />
                     <CardTitle>Automação API</CardTitle>
                     <CardSubtitle>JAVA, WEBDRIVER</CardSubtitle>
                     <CardContent>Projeto realziado para testar API, o objetivo foi criar testes exploratorios para garantir a funcionalidades CRUD da API.</CardContent>
