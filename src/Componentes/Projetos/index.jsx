@@ -107,7 +107,18 @@ const Projetos = () => {
                     <CardSubtitle>JAVA, GRADLE e WEBDRIVER </CardSubtitle>
                     <CardContent>Um projeto com Java realizado durante curso de capacitação em cliente.</CardContent>
                     <ButtonContainer>
-                        <a href="https://github.com/francisgobbi/ProjetoModeloCapacitacaoWeb.git" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/francisgobbi/ProjetoModeloCapacitacaoWeb" target="_blank" rel="noopener noreferrer">
+                            <Button>Acessar</Button>
+                        </a>
+                    </ButtonContainer>
+                </Card>
+                <Card>
+                    <CardImage style={{ backgroundImage: `url(${automacaoWebImg})` }} />
+                    <CardTitle>Automação Web</CardTitle>
+                    <CardSubtitle>JAVA, MAVEN e WEBDRIVER </CardSubtitle>
+                    <CardContent>Um projeto com Java realizado para resolver problema no banco BugBank.</CardContent>
+                    <ButtonContainer>
+                        <a href="https://github.com/francisgobbi/DesafioBugBank" target="_blank" rel="noopener noreferrer">
                             <Button>Acessar</Button>
                         </a>
                     </ButtonContainer>
@@ -128,6 +139,17 @@ const Projetos = () => {
                     <CardTitle>Automação API</CardTitle>
                     <CardSubtitle>JAVASCRIPT, JESTJS</CardSubtitle>
                     <CardContent>Projeto com backend e Front-end do curso de Pos-Graduação, o objetivo foi criar testes exploratorios para garantir a funcionalidades CRUD da API.</CardContent>
+                    <ButtonContainer>
+                        <a href="https://github.com/francisgobbi/projeto-automacao-de-testes-api" target="_blank" rel="noopener noreferrer">
+                            <Button>Acessar</Button>
+                        </a>
+                    </ButtonContainer>
+                </Card>
+                <Card>
+                    <CardImage style={{ backgroundImage: `url(${automacaoApiImg})` }} />
+                    <CardTitle>Automação API</CardTitle>
+                    <CardSubtitle>JAVA, WEBDRIVER</CardSubtitle>
+                    <CardContent>Projeto realziado para testar API, o objetivo foi criar testes exploratorios para garantir a funcionalidades CRUD da API.</CardContent>
                     <ButtonContainer>
                         <a href="https://github.com/francisgobbi/projeto-automacao-de-testes-api" target="_blank" rel="noopener noreferrer">
                             <Button>Acessar</Button>
