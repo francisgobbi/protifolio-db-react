@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import automacaoWebImg from '../Projetos/Imagens/automacao-web.png';
-import automacaoWebImg2 from '../Projetos/Imagens/automacao-web-2.png';
+import automacaoWebImg2 from '../Projetos/Imagens/automacao-web.png';
 import automacaoMobileImg from '../Projetos/Imagens/automation-mobile.png';
 import automacaoApiImg from '../Projetos/Imagens/automation-api.png';
-import automacaoApiImg2 from '../Projetos/Imagens/automation-api-2.png';
+import automacaoApiImg2 from '../Projetos/Imagens/automacao-api-2.png';
 import automacaoDesktopImg from '../Projetos/Imagens/automacao-desktop.png';
 
 import breakpoints from '../../Styles/Breakpoint/breakpoint';
