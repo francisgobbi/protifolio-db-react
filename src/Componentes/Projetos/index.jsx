@@ -150,10 +150,10 @@ const Projetos = () => {
                 <Card>
                     <CardImage style={{ backgroundImage: `url(${automacaoApiImg2})` }} />
                     <CardTitle>Automação API</CardTitle>
-                    <CardSubtitle>JAVA, WEBDRIVER</CardSubtitle>
+                    <CardSubtitle>JAVA, WEBDRIVER, RESTASSURED</CardSubtitle>
                     <CardContent>Projeto realziado para testar API, o objetivo foi criar testes exploratorios para garantir a funcionalidades CRUD da API.</CardContent>
                     <ButtonContainer>
-                        <a href="https://github.com/francisgobbi/projeto-automacao-de-testes-api" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/francisgobbi/testes-api-banco" target="_blank" rel="noopener noreferrer">
                             <Button>Acessar</Button>
                         </a>
                     </ButtonContainer>
