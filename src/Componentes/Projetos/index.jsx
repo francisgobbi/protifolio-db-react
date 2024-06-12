@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import automacaoWebImg from '../Projetos/Imagens/automacao-web.png';
 import automacaoMobileImg from '../Projetos/Imagens/automation-mobile.png';
 import automacaoApiImg from '../Projetos/Imagens/automation-api.png';
 import automacaoDesktopImg from '../Projetos/Imagens/automacao-desktop.png';
@@ -98,9 +98,20 @@ const Button = styled.button`
 const Projetos = () => {
     return (
         <ProjetosContainer>           
-            <h1 >Meus Projetos</h1>            
-            <h2>Projetos</h2>
+            <h1 >Meus Projetos</h1>          
+            
             <Cards>
+                <Card>
+                    <CardImage style={{ backgroundImage: `url(${automacaoWebImg})` }} />
+                    <CardTitle>Automação Web</CardTitle>
+                    <CardSubtitle>JAVA, GRADLE e WEBDRIVER </CardSubtitle>
+                    <CardContent>Um projeto com Java realizado durante curso de capacitação em cliente.</CardContent>
+                    <ButtonContainer>
+                        <a href="https://github.com/francisgobbi/ProjetoModeloCapacitacaoWeb.git" target="_blank" rel="noopener noreferrer">
+                            <Button>Acessar</Button>
+                        </a>
+                    </ButtonContainer>
+                </Card>
                 <Card>
                     <CardImage style={{ backgroundImage: `url(${automacaoMobileImg})` }} />
                     <CardTitle>Automação Mobile</CardTitle>
