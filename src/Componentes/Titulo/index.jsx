@@ -135,7 +135,7 @@ const Titulo = () => {
         <JobSubtitle>Sou Analista de Teste - QA</JobSubtitle>
         <SectionTitle>Sobre mim</SectionTitle>
         <Description>Olá, meu nome é Francis Gobbi, tenho 40 anos. Moro em Porto Alegre/RS sou formado em Engenharia de Computação - PUCRS e estou cursando Pós-Graduação em Automação de Testes de Software, em Porto Alegre. Entrei na DB em novembro de 2021 como analista de testes.
-        Trabalho com Testes Automatizados aproximadamente 3 anos.</Description>
+        Trabalho com testes manuais e testes automatizados aproximadamente 3 anos.</Description>
       </SideSection>
       <MainSection>
         <Image src={fotoFrancis} />

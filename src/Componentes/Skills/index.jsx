@@ -95,6 +95,9 @@ const skills = [
   { name: 'C', level: 4 },
   { name: 'C++', level: 4 },
   { name: 'SQL', level: 4 },
+  { name: 'ORACLE', level: 4 },
+  { name: 'GIT', level: 5 },
+  { name: 'GITHUB, GITLAB', level: 5 },
 ];
 
 const ListSkills = () => {
